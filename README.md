@@ -77,7 +77,7 @@ npx create-next-app@13 frontend
 ```
 - Make sure to choose these settings.
 
-![image](https://github.com/charmingdata/simple-storage-dApp/assets/94773218/e655d747-46e4-405b-8cc4-e9bd8db844ab)
+![image](https://github.com/charmingdata/dApp-simple-storage/assets/94773218/28765958-6c47-4eed-a6ad-e1093435cf30)
 
 2. Before running the sample app, you'll need to remove the `.git` file that was automatically created inside the new `frontend` folder. 
 To remove the file, type this command inside the terminal:

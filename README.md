@@ -30,7 +30,7 @@ npx hardhat
 
 5. Open the `backend` folder and remove any present contracts inside the `contracts` folder. Insert your `SimpleStorage` contract.
 
-6. Now, inside the `scripts` folder, replace the contect of the `deploy.js` file with the [deploy.js code from this project](https://github.com/charmingdata/simple-storage-dApp/blob/main/backend/scripts/deploy.js).
+6. Now, inside the `scripts` folder, replace the contect of the `deploy.js` file with the [deploy.js code from this project](https://github.com/charmingdata/dApp-simple-storage/blob/main/backend/scripts/deploy.js).
 
 7. Create a `.env` file inside the `backend` folder. This will be used to store your wallet key and your Quicknode endpoint. A QuickNode API endpoint gives you quick access to a network of nodes. ([video on setting up your digital wallet](https://youtu.be/kHF70SWFTYU))
 
@@ -40,7 +40,7 @@ QUICKNODE_HTTP_URL="your-quicknode-http-provider-goes-here-inside-the-quotation-
 PRIVATE_KEY="your-wallet-private-key-goes-here-inside-the-quotation-marks"
 ```
 
-8. Open the `hardhat.config.js` file inside the `backend` folder and replace its content with the [hardhat.config.js code from this project](https://github.com/charmingdata/simple-storage-dApp/blob/main/backend/hardhat.config.js). 
+8. Open the `hardhat.config.js` file inside the `backend` folder and replace its content with the [hardhat.config.js code from this project](https://github.com/charmingdata/dApp-simple-storage/blob/main/backend/hardhat.config.js). 
 
 9. Compile your Contract by going back to your terminal (ensure you are in the `backend` directory). And type:
 ```
@@ -60,7 +60,7 @@ Go to https://sepolia.etherscan.io/ and insert the contract address into the Exp
 ## Testing
 Every Contract should be tested before deployment. In this case we deployed first becuause it's freaking exciting to see our contract deployed. But we need tests to make sure our contract has no bugs and is secure. 
 
-1. Open the `test` folder and remove any present files inside of it. Create a new file called `testing.js`, and insert the [testing.js code from this project](https://github.com/charmingdata/simple-storage-dApp/blob/main/backend/test/testing.js).
+1. Open the `test` folder and remove any present files inside of it. Create a new file called `testing.js`, and insert the [testing.js code from this project](https://github.com/charmingdata/dApp-simple-storage/blob/main/backend/test/testing.js).
 
 2. Go back to the terminal, make sure you're in the `backend` directory, and type: 
 ```
@@ -107,9 +107,12 @@ export const abi = MY_ABI;
 
 - Replace the `MY_CONTRACT_ADDRESS` with the address of the contract that you deployed in the Backend section of this tutorial. 
 
-5. Finally, to build the interface of the contract, open the `index.js` file under the `pages` folder (in the `frontend` folder) and replace its content with the [index.js code from this project](https://github.com/charmingdata/simple-storage-dApp/blob/main/frontend/pages/index.js).
+5. Finally, to build the interface of the contract, open the `index.js` file under the `pages` folder (in the `frontend` folder) and replace its content with the [index.js code from this project](https://github.com/charmingdata/dApp-simple-storage/blob/main/frontend/pages/index.js).
 
-6. Go back to your terminal; make sure your in the `frontend` directory and type:
+6. Add the Charming Data images using the instructions below. Once you understand how to add images to your app, feel free to replace with your own images, in which case you would need to update the images' names inside the `pages/index.js` file (lines 143 & 154)
+  - Add the [logo-charmingdata-small.ico](https://raw.githubusercontent.com/charmingdata/dApp-simple-storage/main/frontend/public/logo-charmingdata-small.ico) and [logocharmingdata.png](https://github.com/charmingdata/dApp-simple-storage/blob/main/frontend/public/logocharmingdata.png) to the public folder inside the frontend directory. Do not change image names.
+
+7. Go back to your terminal; make sure your in the `frontend` directory and type:
 ```
 npm run dev
 ```

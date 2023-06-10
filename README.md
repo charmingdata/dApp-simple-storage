@@ -120,6 +120,7 @@ We will use Vercel to deploy the frontend of our contract. Before starting with 
 1. Once your repositoy has been created in Github, go to [Vercel](https://vercel.com/login) and create an account by connecting your GitHub account. 
 
 2. Once your GitHub account is connected, click the button to add a new project in Vercel. 
+  - add your repository (you might have to import it as well)
 
 3. Select `Next.js` as the Framework Preset. In the Root Directory click Edit to select `frontend`.
 

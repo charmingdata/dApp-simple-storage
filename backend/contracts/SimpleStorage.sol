@@ -20,7 +20,7 @@ contract SimpleStorage {
     // Declare a function called setSentence
     // The function takes 1 input parameter, a string named newSentence, with the calldata data location in the Ethereum Virtual Machine
     function setSentence(string calldata newSentence) external {
-        // Assign the value of newSentence to he storeTheSentence variable
+        // Assign the value of newSentence to the storeTheSentence variable
         storeTheSentence = newSentence;
     }
 }

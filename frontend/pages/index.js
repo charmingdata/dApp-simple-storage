@@ -49,9 +49,6 @@ export default function Home() {
   };
 
   useEffect(() => {
-    {
-      /*Used arrow function syntax for initializeWeb3Modal to avoid re-creating the function on each render.*/
-    }
 
     const initializeWeb3Modal = () => {
       web3ModalRef.current = new Web3Modal({

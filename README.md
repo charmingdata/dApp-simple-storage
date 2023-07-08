@@ -76,7 +76,6 @@ In this section of the tutorial we'll create a dApp (decentralized app) that wil
 1. Open the terminal (command line) and go into the `simple-storage` directory. Create a sample Next app by typing:
 ```
 npx create-next-app@13 frontend
-
 ```
 - Make sure to choose these settings.
 

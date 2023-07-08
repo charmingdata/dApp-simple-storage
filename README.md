@@ -105,7 +105,7 @@ export const MY_CONTRACT_ADDRESS = "MY_CONTRACT_ADDRESS";
 export const abi = MY_ABI;
 ```
 - Replace the `MY_ABI` with the abi array that can be found in the following file:
-`backend/artifacts/contracts/SimpleStorage.json`
+`backend/artifacts/contracts/SimpleStorage.sol/SimpleStorage.json`
 
 - Replace the `MY_CONTRACT_ADDRESS` with the address of the contract that you deployed in the Backend section of this tutorial. 
 

@@ -32,13 +32,16 @@ npx hardhat
 
 6. Now, inside the `scripts` folder, replace the contect of the `deploy.js` file with the [deploy.js code from this project](https://github.com/charmingdata/dApp-simple-storage/blob/main/backend/scripts/deploy.js).
 
-7. Create a `.env` file inside the `backend` folder. This will be used to store your wallet key and your Quicknode endpoint. A QuickNode API endpoint gives you quick access to a network of nodes. ([video on setting up your digital wallet](https://youtu.be/kHF70SWFTYU))
+7. Create a `.env` file inside the `backend` folder. This will be used to store your wallet key and your Quicknode endpoint. A QuickNode API endpoint gives you quick access to a network of nodes.
 
 - Add these two lines inside the `.env` file, and update the content inside the quotation marks:
 ```
 QUICKNODE_HTTP_URL="your-quicknode-http-provider-goes-here-inside-the-quotation-marks"
 PRIVATE_KEY="your-wallet-private-key-goes-here-inside-the-quotation-marks"
 ```
+
+- [video on setting up your digital wallet](https://youtu.be/kHF70SWFTYU)
+- [video on setting up your Quicknode](https://youtu.be/xxkT2qpg4g8)
 
 8. Open the `hardhat.config.js` file inside the `backend` folder and replace its content with the [hardhat.config.js code from this project](https://github.com/charmingdata/dApp-simple-storage/blob/main/backend/hardhat.config.js). 
 
